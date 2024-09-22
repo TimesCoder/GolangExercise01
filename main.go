@@ -136,7 +136,7 @@ func inputdanSimpanData() {
 		tentukan, _ := reader.ReadString('\n')
 		tentukan = strings.TrimSpace(tentukan)
 
-		// Jika tidak ingin menambah data, keluar dari loop
+		// Jika tidak ingin menambah data
 		if strings.ToLower(tentukan) != "ya" {
 			break
 		}
